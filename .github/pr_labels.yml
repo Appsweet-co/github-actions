@@ -1,0 +1,59 @@
+# https://github.com/marketplace/actions/github-labeler
+# https://www.rapidtables.com/web/color/index.html
+# https://github.com/commitizen/cz-cli
+
+- "name": "BLOCKED"
+  "description": "Blocked by other pull requests"
+  "color": "DC143C" # crimson
+
+- "name": "chore"
+  "description": "Build process or auxiliary tool changes"
+  "color": "6A5ACD" # slateblue
+
+- "name": "ci"
+  "description": "CI related changes"
+  "color": "00CED1" # darkturquoise
+
+- "name": "docs"
+  "description": "Documentation only changes"
+  "color": "228B22" # forestgreen
+
+- "name": "feat"
+  "description": "A new feature"
+  "color": "1E90FF" # dodgerblue
+
+- "name": "fix"
+  "description": "A bug fix"
+  "color": "FFFF33" # Light yellow4
+
+- "name": "perf"
+  "description": "A code change that improves performance"
+  "color": "9400D3" #darkviolet
+
+- "name": "refactor"
+  "description": "A code change that neither fixes a bug or adds a feature"
+  "color": "FF8C00" # darkorange
+
+- "name": "release-major"
+  "description": "Semver major release"
+  "color": "1a1a1a" # 10%
+
+- "name": "release-minor"
+  "description": "Semver minor release"
+  "color": "666666" # 40%
+
+- "name": "release-patch"
+  "description": "Semver patch release"
+  "color": "999999" # 60%
+
+- "name": "release-prerelease"
+  "description": "Semver prerelease release"
+  "color": "e6e6e6" # 90%
+
+- "name": "style"
+  "description": "Markup, white-space, formatting, missing semi-colons..."
+  "color": "FF1493" # deeppink
+
+- "name": "test"
+  "description": "Adding missing tests"
+  "color": "808000" #olive
