@@ -1,0 +1,17 @@
+
+{
+  "line": "aqua",
+
+  "logo": {
+    "src": "assets/logo.png",
+    "width": "250"
+  },
+
+  "badges": [
+    {
+      "alt": "Latest Build",
+      "url": "https://github.com/pfizer/newton-web-components/packages/150304",
+      "img": "https://img.shields.io/badge/version-0.1.0-blue.svg"
+    }
+  ]
+}
