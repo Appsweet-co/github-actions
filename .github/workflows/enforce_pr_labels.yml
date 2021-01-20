@@ -14,5 +14,5 @@ jobs:
     steps:
       - uses: yogevbd/enforce-label-action@2.1.0
         with:
-          REQUIRED_LABELS_ANY: "BLOCKED,chore,ci,docs,feat,fix,perf,refactor,semver-major,semver-minor,semver-patch,semver-prerelease,style,test"
+          REQUIRED_LABELS_ANY: "BLOCKED,chore,ci,docs,feat,fix,perf,refactor,release-major,release-minor,release-patch,release-prerelease,style,test"
           BANNED_LABELS: "BLOCKED"
